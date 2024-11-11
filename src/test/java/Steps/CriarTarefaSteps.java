@@ -7,8 +7,6 @@ import io.cucumber.java.en.Then;
 
 import java.util.Map;
 
-import static java.lang.Thread.sleep;
-
 public class CriarTarefaSteps {
 
     private static final String TITLE_PEDIDO = "MantisBT";
@@ -47,7 +45,6 @@ public class CriarTarefaSteps {
 
         criarTarefaPage.clicarDenunciar();
         criarTarefaPage.clicarAddArquivo();
-        //Thread.sleep(5000);
         criarTarefaPage.clicarSubmit();
     }
 

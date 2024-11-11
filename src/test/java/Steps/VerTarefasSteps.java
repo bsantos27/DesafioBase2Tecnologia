@@ -4,8 +4,6 @@ package Steps;
 import Pages.VerTarefasPage;
 import io.cucumber.java.en.And;
 
-
-
 public class VerTarefasSteps {
 
     VerTarefasPage verTarefaPage = new VerTarefasPage();
